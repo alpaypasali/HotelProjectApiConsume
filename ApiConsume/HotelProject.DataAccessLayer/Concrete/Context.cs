@@ -11,12 +11,10 @@ namespace HotelProject.DataAccessLayer.Concrete
 {
     public class Context:IdentityDbContext<AppUser,AppRole,int>
     {
-        public Context(DbContextOptions<Context> options) : base(options)
-        {
-        }
+       
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer(@"Server=(localdb)\MSSQLLocalDB;Database=ApiDb;trusted_connection=true");
+            optionsBuilder.UseSqlServer(@"Server=DESKTOP-P284PU7\SQLEXPRESS;Database=ApiDb;trusted_connection=true;");
         }
 
         public DbSet<Room> Rooms { get; set; }
@@ -26,5 +24,10 @@ namespace HotelProject.DataAccessLayer.Concrete
         public DbSet<Testimonial> Testimonials { get; set; }
         public DbSet<About> Abouts { get; set; }
         public DbSet<Booking> Bookings { get; set; }
+        public DbSet<Guest> Guests { get; set; }
+        public DbSet<Contact> Contacts { get; set; }
+        public DbSet<SendMessage> SendMessages { get; set; }
+        public DbSet<MessageCategory> MessageCategories { get; set; }
+        
     }
 }

@@ -1,4 +1,4 @@
-﻿using HotelProject.BusinessLayer.Absract;
+﻿    using HotelProject.BusinessLayer.Absract;
 using HotelProject.EntitiyLayer.Concrete;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -9,48 +9,62 @@ namespace HotelProjectWebApi.Controllers
     [ApiController]
     public class BookingController : ControllerBase
     {
+        private readonly IBookingService _bookService;
 
-        private readonly IBookingService _bookingService;
-
-        public BookingController(IBookingService bookingService)
+        public BookingController(IBookingService bookService)
         {
-            _bookingService = bookingService;
+            _bookService = bookService;
         }
 
         [HttpGet]
-        public IActionResult Bookinglist()
+        public IActionResult Booklist()
         {
-            var values = _bookingService.TGetlist();
+            var values = _bookService.TGetlist();
             return Ok(values);
 
         }
         [HttpPost]
-        public IActionResult AddBooking(Booking booking)
+        public IActionResult AddBook(Booking book)
         {
-            _bookingService.TInsert(booking);
+            _bookService.TInsert(book);
             return Ok();
 
 
         }
         [HttpDelete("{id}")]
-        public IActionResult DeleteBooking(int id)
+        public IActionResult DeleteBook(int id)
         {
-            var valuses = _bookingService.TGetByID(id);
-            _bookingService.TDelete(valuses);
+            var valuses = _bookService.TGetByID(id);
+            _bookService.TDelete(valuses);
             return Ok();
         }
-        [HttpPut]
-        public IActionResult UpdateBooking(Booking booking)
+        [HttpPut("UpdateBook")]
+        public IActionResult UpdateBook(Booking book)
         {
-            _bookingService.TUpdate(booking);
+            _bookService.TUpdate(book);
             return Ok();
         }
         [HttpGet("{id}")]
-        public IActionResult GetBooking(int id)
+        public IActionResult GetBook(int id)
         {
 
-            var values = _bookingService.TGetByID(id);
+            var values = _bookService.TGetByID(id);
             return Ok(values);
+        }
+
+        [HttpPut("deneme")]
+        public IActionResult deneme(Booking booking)
+        {
+
+            _bookService.TBookingStatusChangeApproved(booking);
+            return Ok();
+        }
+        [HttpPut("deneme2")]
+        public IActionResult deneme2(int id)
+        {
+
+            _bookService.TBookingStatusChangeApproved2(id);
+            return Ok();
         }
     }
 }

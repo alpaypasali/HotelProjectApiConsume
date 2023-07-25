@@ -2,9 +2,11 @@
 using Microsoft.AspNetCore.Identity;
 using HotelProject.EntitiyLayer.Concrete;
 using HotelProject.WebUI.Dtos.LoginDto;
+using Microsoft.AspNetCore.Authorization;
 
 namespace HotelProject.WebUI.Controllers
 {
+    [AllowAnonymous]
     public class LoginController : Controller
     {
         private readonly SignInManager<AppUser> _signInManager;

@@ -28,4 +28,9 @@
     <ProjectReference Include="..\ApiConsume\HotelProject.BusinessLayer\HotelProject.BusinessLayer.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="images\" />
+    <Folder Include="files\" />
+  </ItemGroup>
+
 </Project>
