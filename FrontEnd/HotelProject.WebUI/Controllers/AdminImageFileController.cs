@@ -1,9 +1,11 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using System.IO;
 using System.Net.Http.Headers;
 
 namespace HotelProject.WebUI.Controllers
 {
+    [AllowAnonymous]
     public class AdminImageFileController : Controller
     {
         [HttpGet]

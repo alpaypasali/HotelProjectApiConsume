@@ -9,6 +9,6 @@ namespace HotelProject.BusinessLayer.Absract
 {
     public interface IRoomService:IGenericService<Room>
     {
-
+        int TGetRoomCount();
     }
 }

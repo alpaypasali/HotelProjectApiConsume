@@ -33,7 +33,10 @@ namespace HotelProject.WebUI.Controllers
                 Name = model.Name,
                 Email = model.Mail,
                 Surname = model.Surname,
-                UserName = model.Username
+                UserName = model.Username,
+                WorkLocationID=1
+                
+                
             };
             var result = await _userManager.CreateAsync(appUser, model.Password);
             if (result.Succeeded)

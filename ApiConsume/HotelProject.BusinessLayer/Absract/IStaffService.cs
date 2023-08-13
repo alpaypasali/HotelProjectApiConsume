@@ -9,5 +9,7 @@ namespace HotelProject.BusinessLayer.Absract
 {
     public interface IStaffService:IGenericService<Staff>
     {
+        int TGetStaffCount();
+        List<Staff> TLast4Staff();
     }
 }

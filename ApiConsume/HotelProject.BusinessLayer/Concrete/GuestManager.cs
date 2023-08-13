@@ -32,6 +32,11 @@ public GuestManager(IGuestDal guestDal)
             return _guestDal.Getlist();
         }
 
+        public int TGuestCount()
+        {
+            return _guestDal.GuestCount();
+        }
+
         public void TInsert(Guest t)
         {
            _guestDal.Insert(t); 

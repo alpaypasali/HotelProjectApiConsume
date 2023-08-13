@@ -3,6 +3,7 @@ using HotelProject.BusinessLayer.Concrete;
 using HotelProject.DataAccessLayer.Abstract;
 using HotelProject.DataAccessLayer.Concrete;
 using HotelProject.DataAccessLayer.EntityFramework;
+using HotelProject.EntitiyLayer.Concrete;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 
@@ -54,6 +55,12 @@ builder.Services.AddScoped<ISendMessageService, SendMessageManager>();
 builder.Services.AddScoped<IMessageCategoryDal, EfMessageCategoryDal>();
 builder.Services.AddScoped<IMessageCategoryService, MessageCategoryManager>();
 
+builder.Services.AddScoped<IWorkLocationDal, EfWorkLocationDal>();
+builder.Services.AddScoped<IWorkLocationService, WorkLocationManager>();
+
+builder.Services.AddScoped<IAppUserDal, EfAppUserDal>();
+builder.Services.AddScoped<IAppUserService, AppUserManager>();
+
 builder.Services.AddAutoMapper(typeof(Program));
 
 //builder.Services.AddScoped
@@ -64,13 +71,13 @@ builder.Services.AddCors(opt =>
     {
 
         opts.AllowAnyOrigin().AllowAnyHeader().AllowAnyMethod();
-
     });
 
 
 
 });
-
+builder.Services.AddControllers().AddNewtonsoftJson(options =>
+            options.SerializerSettings.ReferenceLoopHandling = Newtonsoft.Json.ReferenceLoopHandling.Ignore);
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

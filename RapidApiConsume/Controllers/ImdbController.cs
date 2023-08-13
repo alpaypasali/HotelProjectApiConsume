@@ -9,7 +9,7 @@ namespace RapidApiConsume.Controllers
     {
         public async Task<IActionResult> Index()
         {
-           List<ApiMovieViewModel> apiMovieViews = new List<ApiMovieViewModel>();   
+            List<ApiMovieViewModel> apiMovieViews = new List<ApiMovieViewModel>();
             var client = new HttpClient();
             var request = new HttpRequestMessage
             {
@@ -25,10 +25,10 @@ namespace RapidApiConsume.Controllers
             {
                 response.EnsureSuccessStatusCode();
                 var body = await response.Content.ReadAsStringAsync();
-               apiMovieViews=JsonConvert.DeserializeObject<List<ApiMovieViewModel>>(body);
+                apiMovieViews = JsonConvert.DeserializeObject<List<ApiMovieViewModel>>(body);
                 return View(apiMovieViews);
             }
-           
+
         }
     }
 }
