@@ -3442,11 +3442,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\W10\\Desktop\\projeler\\udemy1\\MyProject\\HotelProjectWebApi\\HotelProjectWebApi.csproj",
+      "projectUniqueName": "C:\\Users\\W10\\Desktop\\udemyc#\\udemy1\\MyProject\\HotelProjectWebApi\\HotelProjectWebApi.csproj",
       "projectName": "HotelProjectWebApi",
-      "projectPath": "C:\\Users\\W10\\Desktop\\projeler\\udemy1\\MyProject\\HotelProjectWebApi\\HotelProjectWebApi.csproj",
+      "projectPath": "C:\\Users\\W10\\Desktop\\udemyc#\\udemy1\\MyProject\\HotelProjectWebApi\\HotelProjectWebApi.csproj",
       "packagesPath": "C:\\Users\\W10\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\W10\\Desktop\\projeler\\udemy1\\MyProject\\HotelProjectWebApi\\obj\\",
+      "outputPath": "C:\\Users\\W10\\Desktop\\udemyc#\\udemy1\\MyProject\\HotelProjectWebApi\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\W10\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -3464,8 +3464,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\W10\\Desktop\\projeler\\udemy1\\MyProject\\ApiConsume\\HotelProject.BusinessLayer\\HotelProject.BusinessLayer.csproj": {
-              "projectPath": "C:\\Users\\W10\\Desktop\\projeler\\udemy1\\MyProject\\ApiConsume\\HotelProject.BusinessLayer\\HotelProject.BusinessLayer.csproj"
+            "C:\\Users\\W10\\Desktop\\udemyc#\\udemy1\\MyProject\\ApiConsume\\HotelProject.BusinessLayer\\HotelProject.BusinessLayer.csproj": {
+              "projectPath": "C:\\Users\\W10\\Desktop\\udemyc#\\udemy1\\MyProject\\ApiConsume\\HotelProject.BusinessLayer\\HotelProject.BusinessLayer.csproj"
             }
           }
         }

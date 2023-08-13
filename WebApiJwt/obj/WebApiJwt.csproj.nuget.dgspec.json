@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\W10\\Desktop\\projeler\\udemy1\\MyProject\\WebApiJwt\\WebApiJwt.csproj": {}
+    "C:\\Users\\W10\\Desktop\\udemyc#\\udemy1\\MyProject\\WebApiJwt\\WebApiJwt.csproj": {}
   },
   "projects": {
-    "C:\\Users\\W10\\Desktop\\projeler\\udemy1\\MyProject\\WebApiJwt\\WebApiJwt.csproj": {
+    "C:\\Users\\W10\\Desktop\\udemyc#\\udemy1\\MyProject\\WebApiJwt\\WebApiJwt.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\W10\\Desktop\\projeler\\udemy1\\MyProject\\WebApiJwt\\WebApiJwt.csproj",
+        "projectUniqueName": "C:\\Users\\W10\\Desktop\\udemyc#\\udemy1\\MyProject\\WebApiJwt\\WebApiJwt.csproj",
         "projectName": "WebApiJwt",
-        "projectPath": "C:\\Users\\W10\\Desktop\\projeler\\udemy1\\MyProject\\WebApiJwt\\WebApiJwt.csproj",
+        "projectPath": "C:\\Users\\W10\\Desktop\\udemyc#\\udemy1\\MyProject\\WebApiJwt\\WebApiJwt.csproj",
         "packagesPath": "C:\\Users\\W10\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\W10\\Desktop\\projeler\\udemy1\\MyProject\\WebApiJwt\\obj\\",
+        "outputPath": "C:\\Users\\W10\\Desktop\\udemyc#\\udemy1\\MyProject\\WebApiJwt\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\W10\\AppData\\Roaming\\NuGet\\NuGet.Config",

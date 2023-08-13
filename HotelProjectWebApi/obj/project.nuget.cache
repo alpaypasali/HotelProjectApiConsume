@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "honES1u84R/y7bcGLkSEMWNFzIxiNCCBUNldDwz4bIj+EcaTNc+YVrw614FFCz8hxRnWTHuIr5Nr1J7eAzxwxw==",
+  "dgSpecHash": "EJ0sUX+EcvLsHd/Dqh2TUjhtagdBDbU35NjvNO+uswgXxaxSxQIZzCIRNTEqsntvZ94HRq7jX5tRpkgFM6j1Qg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\W10\\Desktop\\projeler\\udemy1\\MyProject\\HotelProjectWebApi\\HotelProjectWebApi.csproj",
+  "projectFilePath": "C:\\Users\\W10\\Desktop\\udemyc#\\udemy1\\MyProject\\HotelProjectWebApi\\HotelProjectWebApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\W10\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\W10\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",

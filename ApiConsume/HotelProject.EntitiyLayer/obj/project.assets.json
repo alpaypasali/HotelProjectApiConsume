@@ -2932,11 +2932,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\W10\\Desktop\\projeler\\udemy1\\MyProject\\ApiConsume\\HotelProject.EntitiyLayer\\HotelProject.EntitiyLayer.csproj",
+      "projectUniqueName": "C:\\Users\\W10\\Desktop\\udemyc#\\udemy1\\MyProject\\ApiConsume\\HotelProject.EntitiyLayer\\HotelProject.EntitiyLayer.csproj",
       "projectName": "HotelProject.EntitiyLayer",
-      "projectPath": "C:\\Users\\W10\\Desktop\\projeler\\udemy1\\MyProject\\ApiConsume\\HotelProject.EntitiyLayer\\HotelProject.EntitiyLayer.csproj",
+      "projectPath": "C:\\Users\\W10\\Desktop\\udemyc#\\udemy1\\MyProject\\ApiConsume\\HotelProject.EntitiyLayer\\HotelProject.EntitiyLayer.csproj",
       "packagesPath": "C:\\Users\\W10\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\W10\\Desktop\\projeler\\udemy1\\MyProject\\ApiConsume\\HotelProject.EntitiyLayer\\obj\\",
+      "outputPath": "C:\\Users\\W10\\Desktop\\udemyc#\\udemy1\\MyProject\\ApiConsume\\HotelProject.EntitiyLayer\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\W10\\AppData\\Roaming\\NuGet\\NuGet.Config",

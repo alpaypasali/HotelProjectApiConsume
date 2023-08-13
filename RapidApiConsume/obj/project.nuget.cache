@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "2ZkTiBRfJCw+lqBXKhcW9Afw6zS5NM1h07Q8ZFLs6DvPIQwLYkZPdTOU/4nC1tL894y1zZIwg025peHwoYd0BA==",
+  "dgSpecHash": "1zNuaQs/f+2vupbQ27eTdXBP/zgfRsxh9Hr4DzCNiIMw5aC8FpCvPnFq6BpSJXpj8Gm4SPCGTMZxZp2OuifDNw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\W10\\Desktop\\projeler\\udemy1\\MyProject\\RapidApiConsume\\RapidApiConsume.csproj",
+  "projectFilePath": "C:\\Users\\W10\\Desktop\\udemyc#\\udemy1\\MyProject\\RapidApiConsume\\RapidApiConsume.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\W10\\.nuget\\packages\\humanizer\\2.14.1\\humanizer.2.14.1.nupkg.sha512",
     "C:\\Users\\W10\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",

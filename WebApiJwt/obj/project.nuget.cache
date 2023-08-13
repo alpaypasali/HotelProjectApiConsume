@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "fo7gDDF8oqE7OVBUznOL9xyvLt4MiiE0wDipQIRXWrnE3Y+4VeFQYv8Em7Dvo3LWO78aCjBl9gqCZ9kQzjtk8w==",
+  "dgSpecHash": "7rx2GhuH8vnCNbOyizHv5Q8bjyGOR4Mjm8K2Zj4xcrphRmgSdXs8kSHwBpWicWm6QWuv/RjvMusXZZEiUJnM4w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\W10\\Desktop\\projeler\\udemy1\\MyProject\\WebApiJwt\\WebApiJwt.csproj",
+  "projectFilePath": "C:\\Users\\W10\\Desktop\\udemyc#\\udemy1\\MyProject\\WebApiJwt\\WebApiJwt.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\W10\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\6.0.0\\microsoft.aspnetcore.authentication.jwtbearer.6.0.0.nupkg.sha512",
     "C:\\Users\\W10\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\W10\\Desktop\\projeler\\udemy1\\MyProject\\RapidApiConsume\\RapidApiConsume.csproj": {}
+    "C:\\Users\\W10\\Desktop\\udemyc#\\udemy1\\MyProject\\RapidApiConsume\\RapidApiConsume.csproj": {}
   },
   "projects": {
-    "C:\\Users\\W10\\Desktop\\projeler\\udemy1\\MyProject\\RapidApiConsume\\RapidApiConsume.csproj": {
+    "C:\\Users\\W10\\Desktop\\udemyc#\\udemy1\\MyProject\\RapidApiConsume\\RapidApiConsume.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\W10\\Desktop\\projeler\\udemy1\\MyProject\\RapidApiConsume\\RapidApiConsume.csproj",
+        "projectUniqueName": "C:\\Users\\W10\\Desktop\\udemyc#\\udemy1\\MyProject\\RapidApiConsume\\RapidApiConsume.csproj",
         "projectName": "RapidApiConsume",
-        "projectPath": "C:\\Users\\W10\\Desktop\\projeler\\udemy1\\MyProject\\RapidApiConsume\\RapidApiConsume.csproj",
+        "projectPath": "C:\\Users\\W10\\Desktop\\udemyc#\\udemy1\\MyProject\\RapidApiConsume\\RapidApiConsume.csproj",
         "packagesPath": "C:\\Users\\W10\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\W10\\Desktop\\projeler\\udemy1\\MyProject\\RapidApiConsume\\obj\\",
+        "outputPath": "C:\\Users\\W10\\Desktop\\udemyc#\\udemy1\\MyProject\\RapidApiConsume\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\W10\\AppData\\Roaming\\NuGet\\NuGet.Config",
